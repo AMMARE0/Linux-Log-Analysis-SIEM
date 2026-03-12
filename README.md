@@ -1,3 +1,10 @@
+## Overview
+
+This project demonstrates automated Linux log monitoring and threat detection using Python.  
+The system parses Linux authentication logs and identifies suspicious activity such as SSH brute force attacks.
+
+Security events are analyzed and prepared for visualization in a SIEM-style dashboard environment.
+
 ## Project Structure
 
 parsers/        - Log parsing scripts  

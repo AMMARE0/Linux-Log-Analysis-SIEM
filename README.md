@@ -1,2 +1,9 @@
-# Linux-Log-Analysis-SIEM
-Automated Linux log monitoring and threat detection system with Python, including SSH brute force detection and SIEM-style dashboards for security event visualization.
+## Project Structure
+
+parsers/        - Log parsing scripts  
+detections/     - Security detection rules  
+scripts/        - Automation scripts  
+sample_logs/    - Example Linux log files  
+dashboards/     - SIEM dashboard configurations  
+docs/           - Project documentation  
+screenshots/    - Dashboard and detection screenshots

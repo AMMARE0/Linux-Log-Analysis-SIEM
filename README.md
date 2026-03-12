@@ -63,7 +63,7 @@ After parsing the logs, the system counts failed login attempts per attacker IP.
 
 ### SSH Brute Force Detection
 
-Detects repeated failed SSH login attempts from the same IP address.
+Detects potential SSH brute-force attacks when a single IP address exceeds a defined threshold of failed login attempts.
 
 **Log Source**
 ```
@@ -71,6 +71,12 @@ Detects repeated failed SSH login attempts from the same IP address.
 ```
 
 **Detection Logic**
+### Example Detection Output
+
+⚠ ALERT: Possible SSH brute force attack detected  
+IP: 192.168.1.10  
+Failed Attempts: 4
+
 
 - Monitor failed login attempts
 - Count attempts per IP address

@@ -51,7 +51,9 @@ Detects repeated failed SSH login attempts from the same IP address.
 - Trigger alert when attempts exceed a defined threshold
 
 **Example Log Entry**
+```
 Failed password for root from 192.168.1.10 port 22 ssh2
+```
 
 ---
 
@@ -69,7 +71,9 @@ Failed password for root from 192.168.1.10 port 22 ssh2
 To test detection rules, SSH login attempts can be simulated.
 
 Example command:
+```
 ssh wronguser@localhost
+```
 
 Repeated login failures generate entries in:
 /var/log/auth.log
@@ -84,7 +88,9 @@ docs/attack_simulation.md
 ## Example Logs
 
 Sample authentication logs are stored in:
+```
 sample_logs/auth_sample.log
+```
 
 These logs allow testing detection scripts without requiring a live system.
 

@@ -7,3 +7,10 @@ sample_logs/    - Example Linux log files
 dashboards/     - SIEM dashboard configurations  
 docs/           - Project documentation  
 screenshots/    - Dashboard and detection screenshots
+
+## MITRE ATT&CK Mapping
+
+| Detection | Technique | ID |
+|----------|-----------|----|
+| SSH Brute Force | Brute Force | T1110 |
+| Unauthorized Login Attempts | Valid Accounts | T1078 |

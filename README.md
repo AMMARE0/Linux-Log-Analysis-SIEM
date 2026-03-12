@@ -7,6 +7,16 @@ The system parses Linux authentication logs and identifies suspicious activity s
 
 Detected security events can be analyzed and visualized in a SIEM-style dashboard environment.
 
+## System Architecture
+Linux Logs (/var/log/auth.log)
+        ↓
+Log Parser (Python)
+        ↓
+Detection Rules
+        ↓
+Alert Generation
+        ↓
+SIEM Dashboard
 
 ## Project Structure
 

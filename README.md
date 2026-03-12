@@ -29,3 +29,11 @@ screenshots/    - Dashboard and detection screenshots
 |----------|-----------|----|
 | SSH Brute Force | Brute Force | T1110 |
 | Unauthorized Login Attempts | Valid Accounts | T1078 |
+
+## Future Improvements
+
+- Real-time log monitoring using `tail` or log streaming
+- Integration with Elasticsearch and Kibana dashboards
+- Additional detection rules (privilege escalation, suspicious sudo activity)
+- Alerting via email or messaging platforms
+- Log enrichment with threat intelligence feeds

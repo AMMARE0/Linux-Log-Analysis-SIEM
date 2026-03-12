@@ -18,7 +18,6 @@ dashboards/     - SIEM dashboard configurations
 docs/           - Project documentation and attack simulations  
 screenshots/    - Dashboard and detection screenshots  
 
----
 
 ## Skills Demonstrated
 
@@ -29,7 +28,6 @@ screenshots/    - Dashboard and detection screenshots
 - SIEM concepts
 - Security event investigation
 
----
 
 ## Detection Use Cases
 
@@ -53,7 +51,6 @@ Detects repeated failed SSH login attempts from the same IP address.
 Failed password for root from 192.168.1.10 port 22 ssh2
 ```
 
----
 
 ## MITRE ATT&CK Mapping
 
@@ -62,7 +59,6 @@ Failed password for root from 192.168.1.10 port 22 ssh2
 | SSH Brute Force | Brute Force | T1110 |
 | Unauthorized Login Attempts | Valid Accounts | T1078 |
 
----
 
 ## Attack Simulation
 
@@ -81,7 +77,6 @@ These entries are analyzed by the detection scripts.
 Full simulation documentation:
 docs/attack_simulation.md
 
----
 
 ## Example Logs
 
@@ -92,7 +87,6 @@ sample_logs/auth_sample.log
 
 These logs allow testing detection scripts without requiring a live system.
 
----
 
 ## Future Improvements
 
@@ -103,7 +97,6 @@ These logs allow testing detection scripts without requiring a live system.
 - Threat intelligence enrichment
 - Log correlation across multiple systems
 
----
 
 ## License
 

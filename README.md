@@ -8,6 +8,14 @@ dashboards/     - SIEM dashboard configurations
 docs/           - Project documentation  
 screenshots/    - Dashboard and detection screenshots
 
+## Skills Demonstrated
+
+- Linux log analysis
+- Security detection engineering
+- Threat monitoring automation
+- Python scripting
+- SIEM concepts
+
 ## MITRE ATT&CK Mapping
 
 | Detection | Technique | ID |

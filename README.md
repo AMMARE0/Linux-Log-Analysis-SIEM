@@ -1,5 +1,7 @@
 # Linux Log Analysis & SIEM Detection Lab
 
+---
+
 ## Overview
 This project demonstrates automated Linux log monitoring and threat detection using Python.  
 The system parses Linux authentication logs and identifies suspicious activity such as SSH brute force attacks.

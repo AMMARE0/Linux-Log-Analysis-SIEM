@@ -40,10 +40,9 @@ screenshots/    - Dashboard and detection screenshots
 Detects repeated failed SSH login attempts from the same IP address.
 
 **Log Source**
-'''
+```
 /var/log/auth.log
-'''
-
+```
 
 **Detection Logic**
 

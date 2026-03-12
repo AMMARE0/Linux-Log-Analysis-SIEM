@@ -43,6 +43,18 @@ screenshots/    - Dashboard and detection screenshots
 
 ## Detection Use Cases
 
+### Raw Failed SSH Login Attempts
+
+Example authentication log entries showing repeated failed login attempts.
+
+![Failed SSH Log Entries](screenshots/failed_ssh_log_entries.png)
+
+### IP-Based Detection Output
+
+After parsing the logs, the system counts failed login attempts per attacker IP.
+
+![SSH Attempts by IP](screenshots/ssh_attempts_by_ip.png)
+
 ### SSH Brute Force Detection
 
 Detects repeated failed SSH login attempts from the same IP address.
